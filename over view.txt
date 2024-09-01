@@ -1,0 +1,21 @@
+Chronic Kidney Disease dataset
+Data has 25 feattures which may predict a patient with chronic kidney disease
+
+# Content
+
+The data was taken over a 2-month period in India with 25 features
+( eg, red blood cell count, white blood cell count, etc). 
+The target is the 'classification', which is either 'ckd' or 'notckd' -
+ ckd=chronic kidney disease. There are 400 rows
+
+The data needs cleaning: in that it has NaNs and the numeric features need to be forced to floats
+ Basically, we were instructed to get rid of ALL ROWS with Nans,
+  with no threshold - meaning, any row that has even one NaN, gets deleted.
+
+Part 1: We are asked to choose 3 features (bgr, rc, wc), 
+visualize them, then run the PCA with n_components=2.
+the PCA is to be run twice: one with no scaling and the second run WITH scaling.
+ And this is where my issue starts … in that after scaling I can hardly see any difference!
+
+
+https://www.kaggle.com/datasets/mansoordaku/ckdisease/
